@@ -1,0 +1,140 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #ffcbf2 20%, #ffbaf5 50%, #e0aaff 100%);
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+
+
+.site-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0 20px 0;
+    width: 100%;
+}
+
+.logo {
+    max-width: 300px;
+    height: auto;
+}
+
+.profile-card {
+    background-color: #fbabff;
+    border-radius: 16px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    padding: 20px 16px;
+    max-width: 400px;
+    width: 90%;
+    text-align: center;
+    margin-top: 10px;
+    box-sizing: border-box;
+    border: 3px solid #b359b3;
+}
+
+.profile-pfp {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #de1ae8;
+    margin-bottom: 15px;
+}
+
+.profile-name {
+    font-size: 24px;
+    color: #333333;
+    margin: 0 0 10px 0;
+}
+
+.profile-bio {
+    font-size: 15px;
+    color: #666666;
+    line-height: 1.5;
+    margin: 0 0 15px 0;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+    padding: 0;
+}
+
+.button-container a {
+    text-decoration: none;
+    color: inherit;
+    width: 100%;
+}
+
+.nav-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    background-color: #ba135d;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 14px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.button-icon {
+    width: 18px;
+    height: 18px;
+    object-fit: contain;
+}
+
+.nav-button:hover {
+    background-color: #ff3399;
+    transform: translateY(-2px);
+}
+
+.fingerprint-box {
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(186, 19, 93, 0.2);
+    border-radius: 8px;
+    padding: 8px;
+    margin-top: 15px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.fingerprint-label {
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    color: #ba135d;
+    margin-bottom: 4px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.fingerprint-text {
+    font-family: monospace;
+    font-size: 13px;
+    color: #333333;
+    word-break: break-all;
+    display: block;
+    user-select: all;
+}
+
+
+@media (max-width: 480px) {
+    .logo {
+        max-width: 90%;
+    }
+}

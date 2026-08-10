@@ -15,35 +15,29 @@
 <audio src="bgm.m4a" autoplay loop id="bgm"></audio>
 
   <main class="profile-card">
+  <div class="profile-info-group">
     <img src="images/BoredCreamPFP.gif" alt="Profile Picture" class="profile-pfp">
     <h2 class="profile-name">BoredCream</h2>
     <p class="profile-bio">Hello, I am BoredCream,,yu can call me Bici,, yu can find my socials/contacts below</p>
+  </div>
+  
+  <nav class="button-container">
+    <a href="https://cunny.beauty" target="_blank" rel="noopener noreferrer">
+      <button class="nav-button"><img src="images/AkkomaButton.png" alt="" class="button-icon"> Fediverse</button>
+    </a>
+    <a href="mailto:mercy@kodomo.moe">
+      <button class="nav-button"><i class="fa-solid fa-envelope"></i> Email</button>
+    </a>
+    <a href="https://openpgp.org" target="_blank" rel="noopener noreferrer">
+      <button class="nav-button"><i class="fa-solid fa-key"></i> PGP</button>
+    </a>
     
-    <nav class="button-container">
-      <a href="https://cunny.beauty/bc" target="_blank" rel="noopener noreferrer">
-        <button class="nav-button">
-          <img src="images/AkkomaButton.png" alt="" class="button-icon"> Fediverse
-       </button>
-      </a>
-
-      <a href="mailto:mercy@kodomo.moe">
-        <button class="nav-button">
-          <i class="fa-solid fa-envelope"></i> Email
-        </button>
-      </a>
-
-      <a href="https://keys.openpgp.org/vks/v1/by-fingerprint/E67963C9675A7B1B8690DE91FC8AD0D606984519" target="_blank" rel="noopener noreferrer">
-        <button class="nav-button">
-          <i class="fa-solid fa-key"></i> PGP
-        </button>
-      </a>
-    </nav>
     <div class="fingerprint-box" onclick="copyFingerprint()" style="cursor: pointer;">
-  <span class="fingerprint-label">PGP Fingerprint (Click to Copy):</span>
-  <code class="fingerprint-text" id="pgp-text">e67963c9675a7b1b8690de91fc8ad0d606984519</code>
-</div>
-
-  </main>
+      <span class="fingerprint-label">PGP Fingerprint (Click to Copy):</span>
+      <code class="fingerprint-text" id="pgp-text">e67963c9675a7b1b8690de91fc8ad0d606984519</code>
+    </div>
+  </nav>
+</main>
 </body>
 <script>
   const audio = document.getElementById('bgm');

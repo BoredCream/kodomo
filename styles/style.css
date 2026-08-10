@@ -1,7 +1,12 @@
 html, body {
     margin: 0;
     padding: 0;
-    background: linear-gradient(135deg, #ffcbf2 20%, #ffbaf5 50%, #e0aaff 100%);
+    background-image: "images/Background.png"; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed; 
+    background-color: #ffbaf5;
     font-family: sans-serif;
     display: flex;
     flex-direction: column;

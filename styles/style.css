@@ -253,6 +253,17 @@ html, body {
         position: relative;
     }
 
+    .profile-card .ProfileBG {
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: none;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: 1;
+    }
+
     .profile-info-group {
         display: flex;
         flex-direction: column;
@@ -278,4 +289,5 @@ html, body {
         width: 50%;
     }
 }
+
 

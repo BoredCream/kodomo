@@ -38,33 +38,7 @@ html, body {
     margin-top: 10px;
     box-sizing: border-box;
     border: 4px solid #b359b3;
-    position: relative;
-    overflow: hidden;
 }
-
-.ProfileBG {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    opacity: 0.20;
-    pointer-events: none;
-    z-index: 1;
-}
-
-.profile-info-group,
-.profile-pfp,
-.profile-name,
-.profile-bio,
-.button-container,
-.fingerprint-box {
-    position: relative;
-    z-index: 2;
-}
-
 
 .profile-pfp {
     width: 125px;
@@ -251,17 +225,6 @@ html, body {
         gap: 50px;
         padding: 50px;
         position: relative;
-    }
-
-    .profile-card .ProfileBG {
-        position: absolute;
-        top: 0;
-        left: 0;
-        transform: none;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        z-index: 1;
     }
 
     .profile-info-group {

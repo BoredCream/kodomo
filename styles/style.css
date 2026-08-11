@@ -14,9 +14,6 @@ html, body {
     min-height: 100vh;
 }
 
-
-
-
 .site-header {
     display: flex;
     justify-content: center;
@@ -138,23 +135,6 @@ html, body {
 }
 
 .error-card {
-    min-height: auto;
-    flex-direction: column !important;
-    justify-content: center !important;
-    max-width: 600px !important;
-    gap: 20px !important;
-}
-
-
-.error-title {
-    font-size: 72px;
-    margin: 0;
-    color: #b359b3;
-    font-family: monospace;
-    line-height: 1;
-}
-
-.error-card {
     position: relative;
     overflow: hidden;
     min-height: auto;
@@ -162,6 +142,14 @@ html, body {
     justify-content: center !important;
     max-width: 600px !important;
     gap: 20px !important;
+}
+
+.error-title {
+    font-size: 72px;
+    margin: 0;
+    color: #b359b3;
+    font-family: monospace;
+    line-height: 1;
 }
 
 .error-bg-gif {
@@ -177,19 +165,12 @@ html, body {
     z-index: 1;
 }
 
-.error-card .error-title,
+.error-title,
 .error-card .profile-name,
 .error-card .profile-bio,
 .error-card .button-container {
     position: relative;
     z-index: 2;
-}
-
-
-@media (max-width: 480px) {
-    .error-title {
-        font-size: 56px;
-    }
 }
 
 @media (max-width: 480px) {
@@ -222,8 +203,11 @@ html, body {
     .nav-button {
         padding: 12px;
     }
-}
 
+    .error-title {
+        font-size: 56px;
+    }
+}
 
 @media (min-width: 769px) {
     .logo {

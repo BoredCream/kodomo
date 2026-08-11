@@ -38,9 +38,10 @@ html, body {
     margin-top: 10px;
     box-sizing: border-box;
     border: 4px solid #b359b3;
-    position: relative;
-    overflow: hidden;
-    z-index: 1;
+    background-image: url('../images/ProfileBackground.png');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .profile-pfp {

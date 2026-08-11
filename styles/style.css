@@ -172,15 +172,19 @@ html, body {
 
 
 @media (min-width: 769px) {
+    .logo {
+        max-width: 450px;
+    }
+
     .profile-card {
-        max-width: 850px;
-        width: 85%;
+        max-width: 1050px;
+        width: 90%;
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
-        gap: 40px;
-        padding: 40px;
+        gap: 50px;
+        padding: 50px;
     }
 
     .profile-info-group {
@@ -189,6 +193,19 @@ html, body {
         align-items: center;
         text-align: center;
         width: 45%;
+    }
+
+    .profile-pfp {
+        width: 160px;
+        height: 160px;
+    }
+
+    .profile-name {
+        font-size: 36px;
+    }
+
+    .profile-bio {
+        font-size: 24px;
     }
 
     .button-container {

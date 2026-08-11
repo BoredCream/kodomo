@@ -52,8 +52,9 @@ html, body {
     object-fit: cover;
     opacity: 0.20;
     pointer-events: none;
-    z-index: -1;
+    z-index: 1;
 }
+
 
 .profile-pfp {
     width: 125px;
